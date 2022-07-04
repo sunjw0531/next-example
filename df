@@ -1,0 +1,32 @@
+warning: LF will be replaced by CRLF in pages/index.js.
+The file will have its original line endings in your working directory
+[1mdiff --git a/pages/index.js b/pages/index.js[m
+[1mindex dc4b640..fce22ee 100644[m
+[1m--- a/pages/index.js[m
+[1m+++ b/pages/index.js[m
+[36m@@ -1,6 +1,6 @@[m
+[31m-import Head from 'next/head'[m
+[31m-import Image from 'next/image'[m
+[31m-import styles from '../styles/Home.module.css'[m
+[32m+[m[32mimport Head from 'next/head';[m
+[32m+[m[32mimport Image from 'next/image';[m
+[32m+[m[32mimport styles from '../styles/Home.module.css';[m
+ [m
+ export default function Home() {[m
+   return ([m
+[36m@@ -13,7 +13,7 @@[m [mexport default function Home() {[m
+ [m
+       <main className={styles.main}>[m
+         <h1 className={styles.title}>[m
+[31m-          Welcome to <a href="https://nextjs.org">Next.js!</a>[m
+[32m+[m[32m          Welcome to <a href="https://nextjs.org">Vercel!</a>[m
+         </h1>[m
+ [m
+         <p className={styles.description}>[m
+[36m@@ -65,5 +65,5 @@[m [mexport default function Home() {[m
+         </a>[m
+       </footer>[m
+     </div>[m
+[31m-  )[m
+[32m+[m[32m  );[m
+ }[m
